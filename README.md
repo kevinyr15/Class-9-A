@@ -18,12 +18,13 @@
         }
 
         body {
+            margin: 0;
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
-            background: url("image/2.webp") #030728 no-repeat center;
-            background-size: 100%;
+            background: url("image/2.webp") #030728 no-repeat center center fixed;
+            background-size: cover;
         }
         
         .slider-wrapper {
